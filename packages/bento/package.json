@@ -1,0 +1,29 @@
+{
+  "name": "ha-bento",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Custom Home assistant components",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "vite"
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.13.1",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@types/react-dom": "^18.3.0",
+    "custom-card-helpers": "^1.9.0",
+    "react": "^19.0.0-beta-26f2496093-20240514",
+    "react-dom": "19.0.0-beta-26f2496093-20240514",
+    "react-intl": "^6.6.8",
+    "styled-components": "^6.1.13",
+    "yup": "^1.4.0",
+    "zustand": "^5.0.0-rc.2"
+  },
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "@types/node": "^22.5.5",
+    "@types/react": "^18.3.5"
+  }
+}
